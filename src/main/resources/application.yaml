@@ -1,3 +1,15 @@
+# Django의 settings.py와 같은 역할을 하는 파일입니다.
 spring:
   application:
     name: springsession_hw
+  datasource:
+    url: jdbc:mysql://localhost:3306/likelion_blog
+    username: likelion
+    password: Likellion14th!
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
